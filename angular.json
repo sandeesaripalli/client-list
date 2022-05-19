@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "client-lists": "apps/client-lists",
+    "client-lists-e2e": "apps/client-lists-e2e",
+    "data": "libs/data",
+    "ui": "libs/ui",
+    "ui-e2e": "apps/ui-e2e"
+  }
+}

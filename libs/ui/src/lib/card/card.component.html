@@ -1,0 +1,24 @@
+<aside
+  class="profile-card"
+  #expand
+  (click)="expand.classList.toggle('cardclicked')"
+  *ngFor="let cardData of this.data"
+>
+  <header>
+    <!-- here’s the avatar -->
+
+    <img src="{{ cardData.avatar }}" />
+
+    <!-- the username -->
+    <h1 [innerHTML]="cardData.name"></h1>
+
+    <!-- and role  -->
+    <h2>{{ cardData.title }}</h2>
+  </header>
+
+  <!-- bit of a bio; who are you? -->
+  <div class="profile-bio">
+    <p>{{ cardData.quote }}</p>
+    <p>{{ cardData.nationality }}</p>
+  </div>
+</aside>
