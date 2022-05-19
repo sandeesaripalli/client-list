@@ -15,9 +15,9 @@ Run `yarn` to install node packages.
 
 ## Development server
 
-Run `npm run dev` for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files. It runs all the commands below for lint, backend server, cypress e2e tests, and storybook(navigate to acess http://localhost:4400/). 
+Run `npm run dev` for a dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files. It runs all the commands below for lint, backend server, cypress e2e tests, and storybook (navigate to acess http://localhost:4400/). 
 
-Individual commands can be run from below commands
+Individual commands can be run executed by below commands
 
 ## Linting
 
